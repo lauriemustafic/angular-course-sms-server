@@ -1,6 +1,7 @@
 // Twilio and Firebase info.
 var twilioAccountSID = '';
 var twilioAuthToken = '';
+var twilioNumber = '';
 var firebaseSecret = '';
 var firebaseURL = '';
 
@@ -32,7 +33,7 @@ textMessagesRef.on("child_added", function(snapshot) {
   twilioClient.messages.create({
     body: 'Hi ' + textMessage.name + '! Your table for ' + textMessage.size + ' is now ready!',
     to: textMessage.phoneNumber,
-    from: '+14075120119'
+    from: twilioNumber
   }, function(err, message) {
     if (err) {
       console.log(err);
