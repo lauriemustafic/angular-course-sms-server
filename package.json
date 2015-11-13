@@ -4,7 +4,7 @@
   "description": "Handles SMS messages for the angularcourse.com demo app",
   "main": "server.js",
   "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Gordon Zhu <gordon@watchandcode.com>",
   "dependencies": {
 
     "express": "~3.2.4",
