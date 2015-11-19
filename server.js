@@ -16,7 +16,7 @@ var express = require('express');
 var http = require('http');
 var Firebase = require('firebase');
 var twilio = require('twilio');
-var mailgun = require('mailgun-js')({apiKey: mailgunApiKey, domain: mailgunDomain});
+// var mailgun = require('mailgun-js')({apiKey: mailgunApiKey, domain: mailgunDomain});
 
 // Express server setup.
 var router = express();
