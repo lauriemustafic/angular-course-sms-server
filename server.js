@@ -60,7 +60,7 @@ textMessagesRef.on("child_added", function(snapshot) {
 //   var email = snapshot.val();
 //   var emailData = {
 //     from: '<postmaster@'  + mailgunDomain + '>',
-//     to: email.email,
+//     to: email.emailAddress,
 //     subject: 'Welcome to Wait and Eat',
 //     text: 'Thanks for signing up for Wait and Eat!'
 //   };
